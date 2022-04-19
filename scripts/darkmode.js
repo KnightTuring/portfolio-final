@@ -13,12 +13,12 @@ document.querySelector("#btn-dark-mode").addEventListener("click", function(e) {
 
 document.querySelector("#btn-dark-mode").addEventListener("mouseover", function(e) {
     let val = document.querySelector("#btn-dark-mode")
-    val.style.display = "none"
+    val.style.opacity = "0.05"
 })
 
 document.querySelector("#btn-dark-mode").addEventListener("mouseout", function(e) {
     let val = document.querySelector("#btn-dark-mode")
-    val.style.display = "flex"
+    val.style.opacity = "1.0"
 })
 
 function setDarkMode() {
