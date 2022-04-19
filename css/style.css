@@ -176,13 +176,14 @@ main {
 
 
 .illustration-img {
-    width:50%;
+    /* width:50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2px;
+    border-radius: 2px; */
     /* box-shadow: 5px 5px whitesmoke; */
     /* Credits: https://css-tricks.com/make-a-smooth-shadow-friend/ */
+    width: 60%;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -193,10 +194,7 @@ main {
 }
 
 .illustration-img:hover {
-    width:50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
 }
 
 .design-timeline-heading {
@@ -215,7 +213,7 @@ main {
 .graphics-container {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+    text-align: center;
 }
 
 #about-me-img {
@@ -247,7 +245,7 @@ main {
 }
 
 .parallax {
-   background-image: url("/images/sebastiaan-chia-unsplash.jpg");
+   background-image: url("../images/sebastiaan-chia-unsplash.jpg");
 
   /* Set a specific height */
     min-height: 900px; 
