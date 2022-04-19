@@ -11,6 +11,16 @@ document.querySelector("#btn-dark-mode").addEventListener("click", function(e) {
     }
 })
 
+document.querySelector("#btn-dark-mode").addEventListener("mouseover", function(e) {
+    let val = document.querySelector("#btn-dark-mode")
+    val.style.display = "none"
+})
+
+document.querySelector("#btn-dark-mode").addEventListener("mouseout", function(e) {
+    let val = document.querySelector("#btn-dark-mode")
+    val.style.display = "flex"
+})
+
 function setDarkMode() {
     darkMode = true
     localStorage.setItem('dark', 'on')
