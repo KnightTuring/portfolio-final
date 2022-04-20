@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- This will be the main homepage of my personal website -->
 <html lang="en">
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,23 +44,27 @@
                     <a class = "active-nav" href="form.html">Contact Me</a>
                 </nav>
             </div>
-            <div class="dark-mode-float-button" id = "btn-dark-mode">Dark mode off</div>
+            
             <h1 id="main-h1" class = "title">Get in touch with me</h1>
         </header>
-        <div class="parallax"></div>
-        <form id = "main-form"
-        action="https://formspree.io/f/xdobdjry"
-        method="POST">
-            <i class="fa-solid fa-user"></i> <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br>
-            <i class="fa-solid fa-envelope"></i> <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <i class="fa-solid fa-comment"></i> <label for="comments">Comments</label><br>
-            <input type="text" id="comments" name="comments"><br><br>
-            <button type="submit">Submit</button>
-        </form>
-        <footer>
+        <main>
+            <div class="parallax"></div>
+            <div class="dark-mode-float-button" id = "btn-dark-mode">Turn dark mode on</div>
+            <form id = "main-form"
+            action="https://formspree.io/f/xdobdjry"
+            method="POST">
+                <i class="fa-solid fa-user"></i> <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <i class="fa-solid fa-envelope"></i> <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <i class="fa-solid fa-comment"></i> <label for="comments">Comments</label><br>
+                <input type="text" id="comments" name="comments"><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
         
+        <footer class="footer-text"> 
+            <p>Abdul Wasay &copy; 2022</p>
         </footer>
         <script src="./scripts/darkmode.js"></script>
     </body>
