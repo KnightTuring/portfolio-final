@@ -572,7 +572,7 @@ button {
     .project-img-grid {
         display: grid;
         grid-template-columns: 1fr;
-        /* grid-template-rows: 1fr 1fr 1fr; */
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         row-gap: 10px;
         align-items: center;
     }
@@ -582,26 +582,27 @@ button {
     }
     
     #demo1 {
+        grid-row: 1 / span 1;
         grid-column: 1 / span 1;
     }
     
     #demo2 {
-        /* grid-row: 1 / span 1; */
+        grid-row: 2 / span 1;
         grid-column: 1 / span 1;
     }
     
     #demo3 {
-        /* grid-row: 2 / span 1; */
+        grid-row: 3 / span 1;
         grid-column: 1 / span 1;
     }
     
     #demo4 {
-        /* grid-row: 2 / span 1; */
+        grid-row: 4 / span 1;
         grid-column: 1 / span 1;
     }
     
     #demo5 {
-        /* grid-row: 3 / span 1; */
+        grid-row: 5 / span 1;
         grid-column: 1 / span 1;
     }
 
